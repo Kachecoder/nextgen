@@ -7,11 +7,11 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center">
           <Image
-            src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/NGHeader2.png"
+            src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/3.png"
             alt="NextGen PLR"
-            width={180}
+            width={280}
             height={60}
-            className="h-12 w-auto"
+            className="h-16 w-auto"
             priority
           />
         </div>

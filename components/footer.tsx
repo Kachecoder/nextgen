@@ -11,11 +11,11 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="inline-block">
               <Image
-                src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/NGHeader2.png"
+                src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/3.png"
                 alt="NextGen PLR"
-                width={150}
-                height={50}
-                className="h-10 w-auto"
+                width={280}
+                height={60}
+                className="h-16 w-auto"
               />
             </Link>
             <p className="text-[#B7B7B7] text-sm leading-relaxed">

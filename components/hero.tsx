@@ -20,13 +20,6 @@ export default function Hero() {
       <div className="relative pt-32 pb-20 sm:pt-40 sm:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0 bg-black"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <div className="mb-8">
-            <img
-              src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/NG_logo1.png"
-              alt="NextGen PLR Logo"
-              className="mx-auto max-w-full h-auto max-h-[200px] sm:max-h-[300px] lg:max-h-[400px]"
-            />
-          </div>
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-white/90 mb-10 font-body">Loading...</p>
         </div>
       </div>
@@ -34,7 +27,7 @@ export default function Hero() {
   }
 
   return (
-    <div className="relative pt-32 pb-20 sm:pt-40 sm:pb-24 overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden flex items-end">
       {/* Video Background */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <video
@@ -43,13 +36,13 @@ export default function Hero() {
           muted
           playsInline
           className="absolute w-full h-full object-cover"
-          style={{ filter: "brightness(0.5)" }}
+          style={{ filter: "brightness(1)" }}
           onError={(e) => {
             console.warn("Video failed to load:", e)
           }}
         >
           <source
-            src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/NG_vid_header.mp4"
+            src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/pink_wave.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -58,21 +51,10 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <div className="mb-8">
-          <img
-            src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/NG_logo1.png"
-            alt="NextGen PLR Logo"
-            className="mx-auto max-w-full h-auto max-h-[200px] sm:max-h-[300px] lg:max-h-[400px]"
-            onError={(e) => {
-              console.warn("Logo failed to load:", e)
-            }}
-          />
-        </div>
-
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 pb-20 w-full">
         <motion.p
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          animate={{ opacity: 3 }}
           transition={{ duration: 0.3, delay: 0.8 }}
           className="max-w-2xl mx-auto text-lg sm:text-xl text-white/90 mb-10 font-body"
         >
@@ -82,7 +64,7 @@ export default function Hero() {
 
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          animate={{ opacity: 3 }}
           transition={{ duration: 0.3, delay: 1 }}
           className="flex flex-wrap justify-center gap-4 z-10"
         >

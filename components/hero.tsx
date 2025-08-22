@@ -56,10 +56,10 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 3 }}
           transition={{ duration: 0.3, delay: 0.8 }}
-          className="max-w-2xl mx-auto text-xl text-white/90 mb-10 font-body leading-relaxed"
+          className="max-w-2xl mx-auto text-lg sm:text-xl text-white/90 mb-10 font-body"
         >
-          Discover how <FlipWords words={words} duration={5000} className="inline text-xl font-medium" /> can unlock
-          your earning potential.
+          Discover how <FlipWords words={words} duration={5000} className="inline-block mx-1" /> can unlock your earning
+          potential.
         </motion.p>
 
         <motion.div

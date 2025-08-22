@@ -70,7 +70,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-[#B7B7B7]">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>hello@reslivin.co</span>
+                <span>info@nextgenplr.co</span>
               </li>
             </ul>
           </div>
@@ -78,7 +78,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-[#2e2e2e] mt-12 pt-6 text-sm text-[#B7B7B7] text-center">
-          © {new Date().getFullYear()} Reslivin. All rights reserved.
+          © {new Date().getFullYear()} NextGenPLR. All rights reserved.
         </div>
       </div>
     </footer>

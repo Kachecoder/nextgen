@@ -89,7 +89,7 @@ export default function ReslivinQuickStartGuide() {
         {/* Left: Guide Cover */}
         <div className="flex justify-center">
           <img
-            src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/NGEN_PDF_Img.png"
+            src="https://synaz3xz7xc7xzre.public.blob.vercel-storage.com/NextGen%20PLR/lead_magnet.png"
             alt="Quick-Start Guide Cover"
             className="w-[300px] h-auto rounded-xl shadow-2xl drop-shadow-2xl"
           />
@@ -127,7 +127,6 @@ export default function ReslivinQuickStartGuide() {
                     setShowFallback(true)
                   }}
                 />
-
                 {/* Loading indicator */}
                 {!isFormLoaded && (
                   <div className="absolute inset-0 bg-[#1c1c1c] rounded-xl flex items-center justify-center">
